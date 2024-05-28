@@ -1,7 +1,7 @@
 # Face Recognition System with KNN Classifier
 This Python script implements a face recognition system using a K-Nearest Neighbors (KNN) classifier. It performs the following tasks:
 
-## <span style="font-size: 24px;">Data Loading:</span> Loads images from a directory structure where each sub-directory represents a person and contains their images.
+Data Loading:Loads images from a directory structure where each sub-directory represents a person and contains their images.
 Preprocessing: Converts images to grayscale, detects faces using a Haar cascade classifier, resizes faces to a fixed size, flattens the images, and applies standardization and dimensionality reduction techniques.
 Class Imbalance Handling: Optionally uses Random Oversampling to address class imbalance if the number of images varies significantly per person.
 Hyperparameter Tuning: Performs a grid search to find the best parameters for the KNN classifier.
