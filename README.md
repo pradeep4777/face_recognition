@@ -1,4 +1,5 @@
 <span style="font-size: 36px;">Face Recognition using kNN with Hyperparameter Tuning</span>
+
 <span style="font-size: 30px;">Table of Contents</span>
 Introduction
 Installation
