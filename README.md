@@ -2,15 +2,23 @@
 This Python script implements a face recognition system using a K-Nearest Neighbors (KNN) classifier. It performs the following tasks:
 
 Data Loading:Loads images from a directory structure where each sub-directory represents a person and contains their images.
-Preprocessing: Converts images to grayscale, detects faces using a Haar cascade classifier, resizes faces to a fixed size, flattens the images, and applies standardization and dimensionality reduction techniques.
-Class Imbalance Handling: Optionally uses Random Oversampling to address class imbalance if the number of images varies significantly per person.
-Hyperparameter Tuning: Performs a grid search to find the best parameters for the KNN classifier.
-Model Training: Trains the KNN classifier with the best parameters.
-Evaluation: Evaluates the model's accuracy on a hold-out test set.
-Prediction: Predicts the identity of a person in a new image.
-Real-time Recognition: Utilizes OpenCV to capture video from a webcam and predict the identity of the person in each frame.
-Requirements:
 
+Preprocessing: Converts images to grayscale, detects faces using a Haar cascade classifier, resizes faces to a fixed size, flattens the images, and applies standardization and dimensionality reduction techniques.
+
+Class Imbalance Handling: Optionally uses Random Oversampling to address class imbalance if the number of images varies significantly per person.
+
+Hyperparameter Tuning: Performs a grid search to find the best parameters for the KNN classifier.
+
+Model Training: Trains the KNN classifier with the best parameters.
+
+Evaluation: Evaluates the model's accuracy on a hold-out test set.
+
+Prediction: Predicts the identity of a person in a new image.
+
+Real-time Recognition: Utilizes OpenCV to capture video from a webcam and predict the identity of the person in each frame.
+
+
+Requirements:
 Python 3.x
 OpenCV
 NumPy
